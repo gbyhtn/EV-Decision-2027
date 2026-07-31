@@ -1,6 +1,6 @@
 # Data Model
 
-Version: 0.1 (Draft)
+Version: 0.2 (Draft)
 
 ---
 
@@ -69,6 +69,33 @@ The data model therefore supports versioned software information.
 
 The project is organised around the following core entities.
 
+Vehicle
+│
+├── Identity
+│   ├── Manufacturer
+│   ├── Model
+│   ├── Variant
+│   └── Model Year
+│
+├── Technical Specification
+│
+├── Feature
+│
+├── Equipment Package
+│
+├── Software Version
+│
+├── Behaviour
+│
+├── Experience
+│
+├── Rating
+│
+└── Source
+
+Region
+└── (referenziert von Vehicle, Feature, Equipment Package und Software Version)
+
 ## Vehicle
 
 Represents a specific vehicle configuration.
@@ -126,6 +153,12 @@ Examples:
 * Digital Key
 
 A feature may also contain additional metadata such as regional availability or optional equipment.
+
+---
+
+## Equipment Package
+
+Verfügbare Ausstattungslinien und jeweilige Feature Inhalte
 
 ---
 
@@ -270,6 +303,13 @@ Examples:
 Ratings may depend on a specific software version.
 
 ---
+
+## Region
+
+Für welche Region gelten die o.g. Ausstattungslienien und Inhalte (meist Länderspezifisch)
+
+---
+
 
 # Relationships
 
