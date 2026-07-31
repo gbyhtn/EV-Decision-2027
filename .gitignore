@@ -1,0 +1,67 @@
+# macOS
+
+.DS_Store
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# SQLite
+
+*.db
+*.sqlite
+*.sqlite3
+
+# VS Code
+
+.vscode/settings.json
+
+# JetBrains
+
+.idea/
+
+# Logs
+
+*.log
+
+# Excel temporary files
+
+~$*.xlsx
+
+# Reports
+
+reports/generated/
+
+# Temporary exports
+
+tmp/
+temp/
+
+# Environment
+
+.env
+.env.*
+
+# Python build
+
+build/
+dist/
+
+# Testing
+
+.pytest_cache/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Coverage
+
+.coverage
+htmlcov/
