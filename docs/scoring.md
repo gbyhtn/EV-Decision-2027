@@ -1,5 +1,6 @@
 # Scoring Model
 
+Version: 0.2 (5th Score added und Einteilung in 4 Ebenen)
 Version: 0.1 (Draft)
 
 ---
